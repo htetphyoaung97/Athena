@@ -1,0 +1,659 @@
+* {
+	padding: 0px;
+	margin : 0px;
+}
+.nav-bar-bg {
+	padding-top:13px;
+	padding-bottom: 13px;
+}
+
+.logo-img img {
+	width: 100%;
+}
+.nav-item {
+	float     : right;
+}
+.nav-item a {
+	padding-left : 20px !important;
+	padding-right: 20px !important;
+}
+.required-drive {
+	padding : 3rem 0;
+}
+
+.all-menu-color a{
+	font-weight: 700;
+}
+
+.all-menu-color a:hover {
+	color: #17a2b8 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: #17a2b8 !important;
+}
+
+.icon-1 {
+	width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #17a2b8;
+    text-align: center;
+}
+
+.icon-1 svg {
+	width: 80px !important;
+    height: 96px;
+    background: #17a2b8;
+    border-radius: 50%;
+    color: #fafafafa;
+}
+
+.download {
+	display: inline-block;
+    position: absolute;
+    top: 10px;
+    padding-left: 20px;
+}
+
+.download p {
+	font-weight: 700;
+    font-size: 25px;
+    color: #17a2b8;	
+}
+
+.update-roms {
+	display: inline-block;
+    position: absolute;
+    top: 10px;
+    padding-left: 20px;
+}
+
+.update-roms p {
+	font-weight: 700;
+    font-size: 25px;
+    color: #17a2b8;	
+}
+
+.Emulator {
+	display: inline-block;
+    position: absolute;
+    top: 10px;
+    padding-left: 20px;
+}
+
+.Emulator p {
+	font-weight: 700;
+    font-size: 25px;
+ 	color: #17a2b8;
+}
+
+.setting {
+	display: inline-block;
+    position: absolute;
+    top: 45px;
+    padding-left: 20px;
+}
+
+.setting p {
+	font-weight: 700;
+    font-size: 25px;
+    color: #17a2b8;	
+}
+
+.rf-fixed {
+	width: 100%;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: .95;
+}
+/*=====================anime Photo==================*/
+.anime-photo img {
+	width: 100%;
+}
+
+.ninja-reg {
+	padding-bottom: 65px;
+}
+
+.skill-detail {
+	padding-bottom: 3rem;
+	padding-left: 3rem;
+	padding-top: 3rem;
+}
+
+.skill-detail p {
+	color: #17a2b8;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.skill-detail h3 {
+	color: #17a2b8;
+    padding-bottom: 2rem;
+}
+
+.ninja-detail ul {
+	list-style: none;
+}
+
+.ninja-detail ul li span:first-child {
+	width: 130px;
+	margin-bottom: 13px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.ninja-detail ul li span {
+	color: #17a2b8;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.border-l {
+	border-left: 2px solid #17a2b8;
+}
+
+.ninja-fav {
+	width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #17a2b8;
+    margin-left: 20px;
+}
+
+.ninja-fav svg {
+	font-size: 25px;
+    color: #fafafa;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+
+.ninja-fav span {
+	position: absolute;
+    margin-left: 25px;
+    bottom: 12px;
+    font-weight: 700;
+}
+
+.skill-card {
+	margin-bottom: 1.7rem;
+}
+
+.ninjaskill-card {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.skill-title {
+	padding-bottom: 20px;
+}
+
+.skill-title {
+	color: #6c757d;
+}
+
+.skill-percent {
+	display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 6px solid #17a2b8;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.skill-percent p {
+	position: absolute;
+    top: 38%;
+    left: 44%;
+    font-size: 25px;
+    font-weight: 700;
+	}
+
+.all-jutsu {
+	border-right: 1px solid;
+}
+
+.skill1, .skill2, .skill3, .skill4, .skill5, .skill6 {
+	    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.all-jutsu span, .all-ninjutsu span {
+	font-weight: 700;
+    font-size: 20px;
+    color: #17a2b8;
+}
+
+.all-jutsu p, .all-ninjutsu p {
+	color: #6c757d;
+}
+
+.services {
+	padding-bottom: 135px
+}
+
+.all-services {
+	position: relative;
+	margin-bottom: 55px;
+}
+
+.services-icon1, 
+.services-icon2,
+.services-icon3, 
+.services-icon4,
+.services-icon5, 
+.services-icon6,
+.services-icon7, 
+.services-icon8 {
+	text-align: center;
+    height: 80px;
+    width: 80px;
+    background: #17a2b8;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    transition: .5s;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    cursor: pointer;
+}
+
+.services-icon1 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    font-size: 35px;
+}
+
+.services-icon2 svg, .services-icon4 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    font-size: 35px;
+}
+
+.services-icon3 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 35px;
+}
+
+.services-icon5 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 28%;
+    left: 34%;
+    font-size: 35px;
+}
+
+.services-icon6 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 26%;
+    left: 37%;
+    font-size: 35px;
+}
+
+.services-icon7 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    font-size: 35px;
+}
+
+.services-icon8 svg {
+	color: #fafafa;
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    font-size: 35px;
+}
+
+.service-title {
+	margin-top: 35px;
+	text-align: left;
+	margin-bottom: 20px !important;
+}
+
+.service-heading {
+	margin-bottom: 85px;
+	text-align: center;
+}
+
+.service-heading h5 {
+	margin-bottom: 35px;
+	color: #17a2b8;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.service-heading h1 {
+	margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.service-heading p {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.service-txt {
+	text-align: left;
+}
+
+.icon-hover {
+	transition: .5s;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.icon-hover:hover .services-icon1,
+.icon-hover:hover .services-icon2,
+.icon-hover:hover .services-icon3,
+.icon-hover:hover .services-icon4,
+.icon-hover:hover .services-icon5,
+.icon-hover:hover .services-icon6,
+.icon-hover:hover .services-icon7,
+.icon-hover:hover .services-icon8 {
+	margin-left: 35px;
+	background: #fafafa;
+}
+
+.icon-hover:hover .services-icon1 svg,
+.icon-hover:hover .services-icon2 svg,
+.icon-hover:hover .services-icon3 svg,
+.icon-hover:hover .services-icon4 svg,
+.icon-hover:hover .services-icon5 svg,
+.icon-hover:hover .services-icon6 svg,
+.icon-hover:hover .services-icon7 svg,
+.icon-hover:hover .services-icon8 svg {
+	color: #17a2b8;
+}
+
+.icon-hover:hover {
+	background: #17a2b8;
+	color: #fafafa;
+}
+
+.icon-hover p {
+	font-weight: 600;
+}
+
+.icon-hover:hover p {
+	color: #fafafa !important;
+	opacity: .8;
+}
+
+.service-contant {
+	background: #17a2b8;
+}
+
+.service-letter {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.service-letter h2 {
+	font-size: 2.5rem;
+    font-weight: 700;
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.service-letter p {
+	font-size: 19px;
+    color: #fafafa;
+    font-weight: 600;
+}
+
+.ninja-img img {
+	width: 100%;
+    position: absolute;
+    top: -50%;
+}
+
+.contact-btn {
+	padding: 13px 35px !important;
+}
+
+.theme-box {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.theme-section {
+	margin-bottom: 2rem;
+}
+
+.theme-section1 {
+	background-image: url("../images/onepiece.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.theme-link {
+	color: #fafafa;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    display: none;
+    transition: .5s;
+}
+
+.theme-section1:hover {
+	filter: brightness(0.5);
+	z-index: 999;
+}
+
+.theme-section1:hover.theme-link {
+	display: block;
+	z-index: 999;
+}
+
+.theme-section2 {
+	background-image: url("../images/blackclover.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.theme-section3 {
+	background-image: url("../images/Ultimate-Ninja-Storm-4.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.theme-section4 {
+	background-image: url("../images/naruto2.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.theme-section5 {
+	background-image: url("../images/naruto2.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.theme-section6 {
+	background-image: url("../images/Ultimate-Ninja-Storm-4.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.theme-section7 {
+	background-image: url("../images/blackclover.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.theme-section8 {
+	background-image: url("../images/onepiece.png");
+	width: 100%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+/*==================Footer==================================*/
+
+
+.footer {
+	padding-top: 65px;
+	padding-bottom: 115px;
+	background: #17a2b8;
+}
+
+.about h1 {
+	color: #fafafa;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.about p {
+	color: #fafafa;
+}
+
+.btn-color {
+	color: #17a2b8 !important;
+}
+
+.footer-link {
+	padding-left: 45px;
+}
+
+.footer-link h1 {
+	color: #fafafa;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.footer-link ul {
+	list-style: none;
+}
+
+.footer-link ul li {
+	margin-bottom: 10px;
+	
+}
+
+.footer-link ul li a {
+	font-weight: 600;
+	color: #fafafa;
+	text-decoration: none;
+}
+
+.service h1 {
+	color: #fafafa;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.service ul {
+	list-style: none;
+}
+
+.service ul li {
+	margin-bottom: 10px;
+	
+}
+
+.service ul li a {
+	font-weight: 600;
+	color: #fafafa;
+	text-decoration: none;
+}
+
+.location h1 {
+	color: #fafafa;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.location ul {
+	list-style: none;
+	font-size: 25px;
+	margin-bottom: 45px;
+}
+
+.location ul li {
+	margin-bottom: 10px;
+	
+}
+
+.location ul li a {
+	font-weight: 600;
+	color: #fafafa;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.fb-links {
+	padding-top: 25px;
+}
+
+.fb-links li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fafafa;
+}
+
+.fb-links li svg {
+	font-size: 20px;
+	color: #17a2b8;
+	margin-bottom: 1px;
+}
+
+.copy-right {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fafafa;
+}
